@@ -4,7 +4,8 @@
   "main": "library-backend.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "node library-backend.js"
+    "dev": "node library-backend.js",
+    "start": "node library-backend.js"
   },
   "author": "Jonna Hyypiä",
   "license": "ISC",

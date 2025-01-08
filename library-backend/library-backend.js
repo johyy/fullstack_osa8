@@ -47,6 +47,7 @@ const start = async () => {
 
   const server = new ApolloServer({
     schema: makeExecutableSchema({ typeDefs, resolvers }),
+    csrfPrevention: false,
     plugins: [ApolloServerPluginDrainHttpServer({ httpServer }),
       {
         async serverWillStart() {
